@@ -18,6 +18,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .calculator {
@@ -29,13 +30,13 @@ body {
 
 .display {
   color: whitesmoke;
-  background-color: #222831;
+  background-color: #474e68;
   width: 252px;
   font-size: xx-large;
   border: 2px solid black;
   padding: 1rem;
   margin-bottom: 0.5rem;
-  /* overflow: scroll; */
+  overflow: auto;
 }
 
 button {
@@ -70,4 +71,12 @@ button:active,
 
 #clear {
   background-color: #f15a59;
+  width: 252px;
+}
+
+.github {
+  position: absolute;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
 }
